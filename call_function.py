@@ -1,4 +1,4 @@
-
+from google.genai import types
 from config import WORKING_DIR
 from functions.get_file_content import get_file_content, schema_get_file_content
 from functions.get_files_info import get_files_info, schema_get_files_info
